@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+    div{
+        width: 600px;
+        height: 400px;
+        border: 1px solid red;
+        position: relative;
+        perspective: 700px;/* 景深 */
+        margin: 100px auto;
+    }
+    div img{
+        width: 600px;
+        height: 400px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        transition: all 5s ease 0s; /* 过度动画 */
+    }
+    div img:nth-of-type(1){
+        transform: rotateY(180deg);/* 旋转变形 */
+        backface-visibility: hidden;/* 背景不可见 */
+    }
+    div img:nth-of-type(2){
+        backface-visibility: hidden;
+    }
+    div:hover img:nth-of-type(1){
+        transform: rotateY(360deg)
+    }
+    div:hover img:nth-of-type(2){
+        transform: rotateY(180deg)
+    }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="./img/04.jpg" alt="">
+        <img src="./img/05.jpg" alt="">
+    </div>
+</body>
+</html>

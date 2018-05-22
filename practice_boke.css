@@ -1,0 +1,71 @@
+ /* header css s */
+ .header{
+     height: 80px;
+     background-color: #000;
+    }
+ .header .wrapper{
+     margin: 0 auto;
+     height: 80px;
+     width: 770px
+    }   
+ .header .wrapper h1{
+     height: 80px;
+     line-height: 80px;
+     color: gold;
+     float: left;
+    } 
+ .header .wrapper ul{
+     height: 80px;
+     line-height: 80px;
+     float: right;
+     list-style-type: none;
+    }
+ .header .wrapper ul li{
+     float: right;
+    }
+ .header .wrapper ul li a{
+     text-decoration: none;
+     margin:0 10px;
+     color: #fff;
+    }
+ .header .wrapper ul li a:hover{
+     color:gold;
+     text-decoration: underline;
+    }
+ /* header css e */
+ /* body css s */
+ body{
+     background-color: gold;
+    }
+ .main{background-color:#fff;
+     width: 750px;
+     padding: 10px 10px 0;
+     margin: 10px auto 0;
+     clear: both;
+    }
+ .main h2{
+     height: 180px;
+     width: 700px;
+     line-height: 180px;
+     background-color: palegreen
+     ;margin: 0 auto 10px;
+     padding-left: 10px;
+    }
+ .main .content{
+     width: 530px;
+     margin-top: 20px;
+     float: left;
+    }
+ .main .sidebar{
+     width: 200px;
+     margin-left: 20px;
+     float: left;
+    }
+ .main .content .bolg h3{
+     border-bottom: 1px solid gold;
+     padding-bottom: 5px;
+    }
+ 
+
+ 
+/* body css e */
