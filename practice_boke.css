@@ -1,5 +1,5 @@
  /* header css s */
- .header{
+  .header{
      height: 80px;
      background-color: #000;
     }
@@ -56,16 +56,37 @@
      margin-top: 20px;
      float: left;
     }
+ .main .content p{
+     line-height: 30px;
+ }
  .main .sidebar{
      width: 200px;
      margin-left: 20px;
      float: left;
+     margin-top: 20px;
     }
- .main .content .bolg h3{
+ .main h3{
      border-bottom: 1px solid gold;
      padding-bottom: 5px;
+    } 
+ .main .sidebar li{
+     line-height: 25px;
     }
- 
+ .main .sidebar a{
+     text-decoration: none;
+    }
+ .main .sidebar a:hover{
+     text-decoration: underline;
+     color: gold;
+ }  
+ .main .sidebar p{
+     text-align: right;
+ } 
+ .main .sidebar form{ margin-top: 10px;}
+.main .sidebar form .keyword{ width: 140px;}
+
+.footer{ clear: both; height: 40px; background: #4a4a4a}
+.footer p{ text-align: center; height: 50px; line-height: 50px; color: #fff;}
 
  
 /* body css e */

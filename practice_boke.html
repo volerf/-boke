@@ -5,7 +5,7 @@
     <link rel="stylesheet" href="./practice_boke.css">
     <style>
     *{margin: 0; padding: 0;} /* 选中所有标签，去掉小白边 */
-   
+    ul{ list-style-type: none; }
     </style>
     <title>我的博客</title>
 </head>
@@ -51,7 +51,7 @@
                     <li><a href="">成长的过程</a></li>
                     <li><a href="">成长的过程</a></li>
                 </ul>
-                <span><a href="">更多...</a></span>
+                <p><a href="">更多...</a></p>
             </div>
             <div>
                 <h3>友情链接</h3>
@@ -62,14 +62,23 @@
                     <li><a href="">成长的过程</a></li>
                     <li><a href="">成长的过程</a></li>
                  </ul>
-                 <span><a href="">更多...</a></span>
+                 <p><a href="">更多...</a></p>
             </div>
             <div>
                 <h3>本站搜索</h3>
-                <form action=""><input type="text"></form>
+                <form action="">
+                    <input type="text" class="keyword">
+                    <input type="submit" value="search">
+                </form>
             </div>
         </div>
+        <!-- Footer Start -->
+        <div class="footer">
+            <p>©2008我的博客 | zlvc 我的博客</p>
+        </div>
+        <!-- Footer End -->
     </div>
     <!-- body e -->
+     
 </body>
 </html>
