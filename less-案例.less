@@ -1,5 +1,61 @@
-.out{
-    height: 200px;
-    width: 200px;
-    border: 1px solid red;
+@bgc:#fff;
+body{
+    background:pink;
+}
+.container{
+    width: 1200px;
+    margin: 20px auto;
+}
+.header{
+    background-color: #fff;
+    width: 1200px;
+    span{
+        float: left;
+        width: 90px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        font-size: 14px;
+        width: auto;
+    }
+    a{
+        &:extend(.header span);
+        color: #999;
+        padding: 0 15px;
+        &:hover{color: #f00;}
+        text-decoration: none;
+    }
+}
+.box{
+    width: 1210px;
+    overflow: hidden;
+    margin-top:20px;
+    li{
+        float:left;
+        margin: 0 10px 10px 0;
+        background:#fff;
+        a{
+            display: block;
+            width:unit(1210/5-10-6-32,px);
+            padding:0 16px;
+            border:3px solid transparent;
+            text-decoration: none;
+        }
+        img{
+            display:block;
+            width:100%;
+        }
+        p{
+            height:40px;
+            line-height:20px;
+            overflow: hidden;
+            font-size: 14px;
+            text-decoration: none;
+        }
+        span{
+            font-size: 16px;
+            color: #000;
+            line-height: 20px;
+        }
+    }
 }
